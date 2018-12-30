@@ -16,6 +16,8 @@ import org.springframework.stereotype.Component;
  * created by zhoumb
  */
 @Component
+@PropertySource("classpath:netty-socket-server.properties")
+@ConfigurationProperties
 public class NettySocketProperties {
 
     @Value("${netty.socket.port}")
