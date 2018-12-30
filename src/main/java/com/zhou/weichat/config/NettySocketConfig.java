@@ -2,7 +2,7 @@
  * Date:     2018/12/2822:34
  * AUTHOR:   Administrator
  */
-package com.zhou.weichat.netty;
+package com.zhou.weichat.config;
 
 import io.netty.channel.nio.NioEventLoopGroup;
 import org.springframework.context.annotation.Bean;

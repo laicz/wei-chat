@@ -38,6 +38,6 @@ public class RedisConfigTest {
         String key = "test_set_string";
         String value = String.valueOf(System.currentTimeMillis());
         redisTemplate.opsForValue().set(key, value);
-        redisTemplate.delete(key);
+//        redisTemplate.delete(key);
     }
 }

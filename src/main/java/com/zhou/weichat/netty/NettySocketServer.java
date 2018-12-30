@@ -29,8 +29,4 @@ public class NettySocketServer {
     @Autowired
     private NettySocketProperties nettySocketProperties;
 
-    @PostConstruct
-    public void print() {
-        System.out.println(nettySocketProperties.getBossThreads() + " : " + nettySocketProperties.getWorkerThreads() + " : " + nettySocketProperties.getPort());
-    }
 }
